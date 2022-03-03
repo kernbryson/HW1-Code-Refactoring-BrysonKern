@@ -7,9 +7,11 @@
   </head>
 
   <body>
-    <header class="header">
-      <h1>Hori<span class="seo">seo</span>n</h1>
-      <div>
+    <!-- disposed of header and se class -->
+    <!-- replaced div tags with header and nav -->
+    <header>
+      <h1>Hori<span>seo</span>n</h1>
+      <nav>
         <ul>
           <li>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -23,12 +25,16 @@
             <a href="#social-media-marketing">Social Media Marketing</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </header>
     <!-- changed div to figure -->
     <figure class="hero"></figure>
     <article class="content">
-      <section class="search-engine-optimization">
+      <!-- added id for search engine (fixed nav link) -->
+      <section
+        id="search-engine-optimization"
+        class="search-engine-optimization"
+      >
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
@@ -75,7 +81,7 @@
     </article>
     <!-- added aside and section tags to replace div -->
     <aside class="benefits">
-      <section class="benefit-lead">
+      <section class="columright">
         <h3>Lead Generation</h3>
         <img src="./assets/images/lead-generation.png" />
         <p>
@@ -83,7 +89,7 @@
           business, bringing customers directly to your website.
         </p>
       </section>
-      <section class="benefit-brand">
+      <section class="columright">
         <h3>Brand Awareness</h3>
         <img src="./assets/images/brand-awareness.png" />
         <p>
@@ -91,7 +97,7 @@
           the search ranking and visibility for your business.
         </p>
       </section>
-      <section class="benefit-cost">
+      <section class="columright">
         <h3>Cost Management</h3>
         <img src="./assets/images/cost-management.png" />
         <p>
@@ -101,8 +107,8 @@
       </section>
     </aside>
     <footer class="footer">
-      <h2>Made with ❤️️ by Horiseon</h2>
-      <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
+      <p id="foothead">Made with ❤️️ by Horiseon</p>
+      <p>2019 Horiseon Social Solution Services, Inc.</p>
     </footer>
   </body>
 </html>
