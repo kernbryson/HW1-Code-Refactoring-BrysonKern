@@ -19,6 +19,8 @@ header {
 h1 {
   display: inline-block;
   font-size: 48px;
+}
+span {
   color: #d9dcd6;
 }
 
@@ -97,8 +99,8 @@ h3 {
   margin: 10px auto;
   max-width: 150px;
 }
-
-.search-engine-optimization {
+/* combined all classes in section */
+.section-txt {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -107,47 +109,11 @@ h3 {
   color: #ffffff;
 }
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
+.section-txt img {
   max-height: 200px;
 }
 
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.section-txt h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -159,7 +125,8 @@ h3 {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
+/* disposed of h2 and added ID */
 #foothead {
   font-size: 20px;
+  font-weight: bold;
 }
