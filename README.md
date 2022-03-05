@@ -2,7 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 This project challenged the developer to refactor the existing code in order to meet semantic standards. While also making the website semantic; the developer also needed to clean up reduntant code and add any necessary notes reguarding what the code does and how they fixed the code.
 
 - The motivation behind this activity was to enhance the existing website to meet accessibilty standards as well as cleaning up the code.
@@ -11,8 +10,6 @@ This project challenged the developer to refactor the existing code in order to 
 - During this activity I learned through trial and error on how to conjoin exisiting css to consolidate code. I also learned the proper semantic tags to use in html.
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [semantics](#Semantics)
 - [Code Consolidation](#CodeConsolidation)
