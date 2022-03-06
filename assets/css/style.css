@@ -107,8 +107,8 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
-.section-txt img {
+/* disposed of child class and create a new one */
+.section-image {
   max-height: 200px;
 }
 

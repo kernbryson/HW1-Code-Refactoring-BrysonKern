@@ -22,20 +22,23 @@ This project challenged the developer to refactor the existing code to meet sema
 
 To make the website semantic many elements needed to be replaced. I first started by removing all the div tags and replacing them with semantic tags like nav, article, section, and footer. I then began to make sure all elements were in order to assure that the contents would make sense to a user with a visual disability. While solidifying the code I also found that many header tags were out of order. This in turn would read the text to the user in an incorrect manner. To fix this I simply rearranged the header tags to fit the style of the website along with deleting the unnecessary ones.
 
+- [Old HTML classes](assets/images/oldhtml.png)
+- [New HTML classes](assets/images/htmlnew.png)
+
 ## CodeConsolidation
 
 Throughout this website, many lines of code had redundant classes. Many items that had the same CSS were split into different classes.
 In order to fix this, I combined all of the classes into one while also changing the class name to something that encompassed all of the elements it affected. Additionally, all of the IMG tags did not have alt attributes which are crucial for audio readers to communicate what the image is.
 
-[old css classes](assets/images/oldcss.png)
-[new css classes](assets/images/newcss.png)
+- [Old CSS classes](assets/images/oldcss.png)
+- [New CSS classes](assets/images/newcss.png)
 
 ## Credits
 
-W3schhools-https://www.w3schools.com/
-Web Dev Simplified-https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
-Professional REAME Guide-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-MIT License-https://choosealicense.com/licenses/mit/
+- W3schhools-https://www.w3schools.com/
+- Web Dev Simplified-https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
+- Professional REAME Guide-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- MIT License-https://choosealicense.com/licenses/mit/
 
 ## License
 
